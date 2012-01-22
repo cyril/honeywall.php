@@ -1,0 +1,92 @@
+/*#content {
+width: 625px;
+margin-left: 140px;
+margin-bottom: 20px;
+padding: 0;
+background-color: transparent;
+}*/
+
+#content {
+margin: 0;
+padding: 0 2em 0 2em;
+background: url(../../images/content/top-fade-bg.png) top left repeat-x; }
+
+#content h1 {
+margin-top: 0;
+padding-top: 5px; }
+
+#content #bloc_info {
+position: fixed;
+right: 0;
+top: 0;
+width: auto;
+padding: 0;
+margin: 0; }
+
+#content #zone_display fieldset {
+margin-bottom: 30px; }
+
+#content #zone_display table {
+width: auto !important; }
+
+#content #zone_display table tbody td {
+font-family: "Courier New", Courier, monospace;
+font-size: 0.9em; }
+
+#content #zone_display table tr td {
+border-top: 1px solid #ccc;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+border-left: 1px solid #ccc;
+/*background-color: #fc9;*/
+background-color: #fff; }
+
+#content #zone_display caption {
+text-align: center;
+font-size: 14px;
+color: #930;
+letter-spacing: .5em; }
+
+#content blockquote .about_honeywall {
+padding: 6px 4px;
+height: 30px; }
+
+#content blockquote .about_honeywall:before {
+content: url(../../images/content/blockquote_before.png); }
+
+#content blockquote .about_honeywall:after {
+content: url(../../images/content/blockquote_after.png); }
+
+#content blockquote .about_honeywall em {
+position: relative;
+top: -10px;
+margin: 0 .5em 0 .5em; }
+
+#content #tagcloud_list ul, #content #tagcloud_list ul li {
+display: inline;
+margin: 0;
+padding: 0; }
+
+#content #tagcloud_list ul {
+text-align: center; }
+
+#content #tagcloud_list ul li {
+margin: .2em .5em; }
+
+#content #tagcloud_list ul li ul {
+display: none; }
+
+#content #zone_display dl#rule .action:before {
+content: 'do '; }
+
+#content #zone_display dl#rule .interface:before {
+content: 'on '; }
+
+#content #zone_display dl#rule .source:before {
+content: 'from '; }
+
+#content #zone_display dl#rule .destination:before {
+content: 'to '; }
+
+#content #zone_display dl#rule .forward:before {
+content: '-> '; }

@@ -1,0 +1,8 @@
+g.object circle {
+fill: white;
+fill-opacity: 0.5;
+stroke-opacity: 0.5; }
+
+g.object circle:hover {
+fill-opacity: 1;
+stroke-opacity: 1; }

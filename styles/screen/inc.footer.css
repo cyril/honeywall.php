@@ -1,0 +1,16 @@
+#footer {
+padding-left: 2em; }
+
+#footer #syndication:before {
+content: url(../../images/footer/syndication.png) }
+
+#footer ul, #footer li, #footer p {
+display: inline;
+margin: 0;
+padding: 0; }
+
+#footer li:before {
+content: ' - '; }
+
+#footer li#copyright:before {
+content: ''; }

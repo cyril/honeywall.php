@@ -1,0 +1,38 @@
+#option {
+position: absolute;
+right: 10px;
+top: 120px;
+min-width: 200px;
+background-color: #fff; }
+#option #zone_configuration th {
+text-align: left;
+}
+#option #zone_configuration fieldset {
+background-color: transparent;
+border: none;
+margin: 0;
+padding: .5em 0;
+}
+#option #zone_configuration fieldset legend {
+	/* background-color: #cc6;
+  border: 1px solid #993;
+  color: #666;
+  margin: 0;
+  padding: 0 .5em; */
+display: none;
+}
+#option caption {
+letter-spacing: .5em;
+border-bottom: 1px solid #ccc;
+}
+#option label {
+display: inline !important;
+}
+/*#option #open_button:hover {
+color: #090;
+border: 1px solid #090;
+}
+#option #delete_button:hover {
+color: #900;
+border: 1px solid #900;
+}*/
